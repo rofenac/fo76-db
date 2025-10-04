@@ -36,6 +36,8 @@ pip install transformers torch pandas
 python assignment_complete.py
 ```
 
+5. NOTE: There is also a super light GUI frontend to view the database. It is the "one liner" file. It contains the command to spin up a super lightweight web server that can be accessed at "localhost:8080" Just make sure it is exectuable and run is as a bash script.
+
 ## What the Program Does
 
 1. **Tests Machine Learning:** Uses HuggingFace's sentiment analysis to analyze game-related text
@@ -44,6 +46,8 @@ python assignment_complete.py
 4. **Analyzes Data:** Answers questions like:
    - What are the most valuable items?
    - What's the average value by item type?
+
+NOTE: The interactivity of the model is finicky at best. It's a bit, like from the original TRON movie.
 
 ## Sample Output
 ```
@@ -55,27 +59,13 @@ Top Items by Value:
 - Nuka Cola (Drink): 10 caps
 ```
 
-## Files in This Project
-- `assignment_complete.py` - Main Python script
-- `fallout76.db` - SQLite database (created when you run the script)
-- `README.md` - This file
-- `.gitignore` - Tells Git what files to ignore
-
 ## Development Log
 
 ### Week 1
-- **Day 1:** Set up GitHub repository
-- **Day 2:** Configured VSCode with GitHub Copilot
-- **Day 3:** Created Python virtual environment on WSL
-- **Day 4:** Successfully tested HuggingFace sentiment analysis model
-- **Day 5:** Implemented SQLite database with items table
-- **Day 6:** Added Fallout 76 game data
-- **Day 7:** Created data analysis queries
+- Scrambled to get my life together
 
 ### Week 2
-- **Day 8:** Tested all functionality
-- **Day 9:** Documented project in README
-- **Day 10:** Submitted assignment
+- **03OCT2025** Created this starter project in one fell swoop. It took all day, even with help from LLMs
 
 ## Data Source
 Initial data is hard-coded based on Fallout 76 wiki information. Future versions will scrape data from:
@@ -85,6 +75,7 @@ Initial data is hard-coded based on Fallout 76 wiki information. Future versions
 
 ## Future Improvements
 - Add more items to the database
+- Migrate data to a dedicated Docker/MySQL server
 - Create a web scraper for automatic updates
 - Build a recommendation system for players
 - Add more complex ML models for price prediction
@@ -94,10 +85,9 @@ Initial data is hard-coded based on Fallout 76 wiki information. Future versions
 - How to use pre-trained ML models from HuggingFace  
 - How to create and query SQL databases
 - How to manage code with Git and GitHub
-- How to use AI tools (GitHub Copilot) for development
+- How to use AI tools (ChatGPT 5 "Agent" Mode and Claude Opus 4.1 w/Github access) for development
 
 ## Challenges Overcome
-- Learning to use WSL and virtual environments
 - Understanding database concepts
 - Getting HuggingFace models to work
 - Managing Python package installations
@@ -113,4 +103,4 @@ Initial data is hard-coded based on Fallout 76 wiki information. Future versions
 - [x] Created README with development log
 
 ## Contact
-GitHub: [your-github-username]
+GitHub: rofenac
