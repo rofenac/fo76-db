@@ -47,7 +47,7 @@ python assignment_complete.py
    - What are the most valuable items?
    - What's the average value by item type?
 
-NOTE: The interactivity of the model is finicky at best. It's a bit, like from the original TRON movie.
+NOTE: The interactivity of the model is finicky at best. It's a bit, like from the original TRON movie. The model I used can be found [here.](https://example.com](https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english)
 
 ## Sample Output
 ```
